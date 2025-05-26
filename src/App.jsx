@@ -60,11 +60,12 @@ function App() {
             <div className="relative w-full h-0.5 my-4">
               <button
                 type="button"
-                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-3 py-1 hover:bg-blue-700 transition-colors shadow-md"
+                className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-black px-3 py-1 hover:bg-blue-700 transition-colors shadow-md"
                 onClick={swap}
               >
-                swap
+                Swap
               </button>
+
             </div>
             <div className="w-full mt-1 mb-4">
               <InputBox
@@ -78,7 +79,7 @@ function App() {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-md"
+              className="w-full bg-blue-600 px-4 py-3 rounded-lg hover:bg-blue-700 transition-colors text-black font-medium shadow-md"
             >
               Convert {from.toUpperCase()} to {to.toUpperCase()}
             </button>
